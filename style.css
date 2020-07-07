@@ -1,9 +1,7 @@
 .container{
     padding-bottom: 100px;
+    overflow: hidden;
 }
-
-
-
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -21,4 +19,44 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.category1{
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+}
+.category2{
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+}
+.category3{
+   background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+
+}
+
+.category1, .category2, .category3{
+
+        border-radius: 10px;
+        padding: 10px 30px;
+        color: #fff;
+}
+.categories img{
+    width:100px ;
+}
+.card{
+    border-color: white;
+    box-shadow: 8px 8px 15px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    border-color: white;
+    background-color: white;
+}
+#subscribe{
+    height: 300px;
+    
+}
+#subscribe h6{
+    color: grey;
 }
